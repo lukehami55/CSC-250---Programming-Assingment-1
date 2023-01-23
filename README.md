@@ -12,3 +12,4 @@ int timesHit[SIZE];
 ``` cpp
 //read data from txt file into arrays, return maxSize
 int readData(int id[], int hits[], int timesHit[], int maxSize);
+```
