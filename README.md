@@ -28,3 +28,14 @@ int binarySearch(int id[], int hits[], int timesHit[], int index);
 //print id hits, and times hit based on index
 void printResults(int id[], int hits[], int timesHit[], int index);
 ```
+## Time Estimates
+|  | Estimated Time    | Actual Time    |
+| :---:   | :---: | :---: |
+| Program Design | 30   | 45   |
+| readData | 5   | 15   |
+| sortArrays | 10   | 5   |
+| getSearchId | 5   | 5   |
+| binarySearch | 15   | TBD   |
+| printResults | 5   | TBD   |
+| Program Test | 5   | TBD   |
+| Total Time | 75   | TBD   |
