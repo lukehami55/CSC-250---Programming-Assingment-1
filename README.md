@@ -4,13 +4,27 @@
 
 ## Data Storage in Main
 ``` cpp
-int id[SIZE];
-int hits[SIZE];
-int timesHit[SIZE];
-int numItems;
+int id[SIZE]; //id array
+int hits[SIZE]; //hits array
+int timesHit[SIZE]; //times hit array
+int numItems; //size of the arrays
+string input; //team id input
+int index; //find index of parallel arrays based on input
 ```
 ## Function Design
 ``` cpp
-//read data from txt file into arrays, return maxSize
-int readData(int id[], int hits[], int timesHit[], int maxSize);
+//read data from txt file into arrays, return length of data
+int readData(int id[], int hits[], int timesHit[], int SIZE);
+
+//sort arrays using bubble sort
+void sortArrays(int id[], int hits[], int timesHit[], int numItems);
+
+//returns user inputted search ID
+int getSearchId(input);
+
+//binary search based on input and returns index
+int binarySearch(int id[], int hits[], int timesHit[], int index);
+
+//print id hits, and times hit based on index
+void printResults(int id[], int hits[], int timesHit[], int index);
 ```
