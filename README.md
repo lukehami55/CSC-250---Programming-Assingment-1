@@ -20,7 +20,7 @@ int readData(int id[], int hits[], int timesHit[], int SIZE);
 void sortArrays(int id[], int hits[], int timesHit[], int numItems);
 
 //returns user inputted search ID
-int getSearchId(input);
+int getSearchId(int input);
 
 //binary search based on input and returns index
 int binarySearch(int id[], int hits[], int timesHit[], int index);
