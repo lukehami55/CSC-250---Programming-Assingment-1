@@ -35,7 +35,7 @@ void printResults(int id[], int hits[], int timesHit[], int index);
 | readData | 5   | 15   |
 | sortArrays | 10   | 5   |
 | getSearchId | 5   | 5   |
-| binarySearch | 15   | TBD   |
-| printResults | 5   | TBD   |
-| Program Test | 5   | TBD   |
-| Total Time | 75   | TBD   |
+| binarySearch | 15   | 10   |
+| printResults | 5   | 10   |
+| Program Test | 5   | 5   |
+| Total Time | 75   | 95   |
