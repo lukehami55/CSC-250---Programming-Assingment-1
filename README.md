@@ -8,7 +8,7 @@ int id[SIZE]; //id array
 int hits[SIZE]; //hits array
 int timesHit[SIZE]; //times hit array
 int numItems; //size of the arrays
-string input; //team id input
+int input; //team id input
 int index; //find index of parallel arrays based on input
 ```
 ## Function Design
