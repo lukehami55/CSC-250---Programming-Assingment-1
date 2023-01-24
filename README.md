@@ -23,7 +23,7 @@ void sortArrays(int id[], int hits[], int timesHit[], int numItems);
 int getSearchId(int input);
 
 //binary search based on input and returns index
-int binarySearch(int id[], int hits[], int timesHit[], int index);
+int binarySearch(int id[], int hits[], int timesHit[], int input, int index);
 
 //print id hits, and times hit based on index
 void printResults(int id[], int hits[], int timesHit[], int index);
